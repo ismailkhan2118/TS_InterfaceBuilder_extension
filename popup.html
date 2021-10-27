@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea {
+            overflow-y: scroll;
+            height: 200px;
+            resize: none;
+            border: 2 px solid black;
+            border-radius: 10 px;
+            padding: 10 px;
+        }
+        .head{
+        
+            text-align: center;
+            color: rgb(0, 74, 109);
+        }
+
+        .msg{
+            color: red;
+        }
+
+        .output {
+            white-space: pre-wrap;
+            overflow-y: scroll;
+            height: 200px;
+            border: 2px solid rgb(0, 74, 109);
+            width: 200px;
+            border-radius: 10px;
+            padding: 20px;
+            resize: none;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 15px;
+            padding: 10px;
+            background-color: rgb(66, 180, 180);
+            color: black;
+            font-style: italic;
+            display: block;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head"><h1>JSON to TS Interface converter</h1></div>
+
+    <textarea rows="30" cols="70"></textarea>
+
+
+    <div class="output hide"></div>
+
+    <p class="msg hide">Wrong Input</p>
+
+    <button class="convert btn" type="button">
+        Convert
+    </button>
+    <button class="redo btn hide" type="button">
+        Redo
+    </button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
