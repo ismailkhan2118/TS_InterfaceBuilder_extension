@@ -3,7 +3,7 @@
 
 Convert JSON Objects directly into Typescript Interface
 
-Download the repo and follow the steps to add the extension in your chrome
+Download the repo and follow the steps to Add the extension in your chrome
 ### Step-1
 Go to  chrome://extensions/
 
