@@ -23,3 +23,7 @@ Select the downloaded repo folder
 
 and it's Done!
 
+![Step 4](screenshots/S4.png?raw=true "Step 4")
+
+
+
